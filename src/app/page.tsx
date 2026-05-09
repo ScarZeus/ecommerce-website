@@ -1,11 +1,14 @@
-import Image from "next/image";
-import Header from "../components/header";
+import NavBar from "../components/navbar";
+import Home from "../sections/home_section";
 
-export default function Home() {
+export default function App() {
   return (
    <div>
     <main>
-       <Header />
+      <div className="">
+          <Home />
+          <NavBar />
+      </div>
     </main>
    </div>
   );
